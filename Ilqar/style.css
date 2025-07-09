@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    display: flex;
+}
+
+main{
+    margin-left: 238px; /* Adjusted to match the width of the nav */
+    display:flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+.inner-div{
+    width: 100%;
+    margin: 20px;
+    width:auto
+}
+
+nav{
+    position: fixed;
+    height: 100vh;
+    width: 238px;
+    background-color: #eee;
+    color: black;  
+}
+
+nav ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: green;
+}
+
+button{
+    color: black;
+    border: 1px solid black;
+    border-radius:4px;
+    padding: 10px 20px;
+    cursor:pointer;;
+}
