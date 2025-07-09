@@ -12,7 +12,7 @@ body{
 }
 
 main{
-    margin-left: 238px; /* Adjusted to match the width of the nav */
+    margin-left: 238px;
     display:flex;
     flex-direction: column;
     line-height: 1.6;
